@@ -1,0 +1,9 @@
+.nav__input{
+    border-radius: 30px;
+    width: 100%;
+
+    &::placeholder{
+        padding-left: .5rem;
+        text-transform: capitalize;
+    }
+}

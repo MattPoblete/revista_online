@@ -1,0 +1,75 @@
+.section{
+    height: 100%;
+    margin-top:98px;
+}
+
+@include sm-view{
+    .section{
+        margin-left: 2.5%;
+        width: 95%;
+    }
+    
+}
+@include md-view{
+    .section{
+        margin-left: 5%;
+        width: 90%;
+    }
+    
+}
+@include lg-view{
+    .section{
+        margin-left: 10%;
+        width: 80%;
+    }
+    
+}
+@include xl-view{
+    .section{
+        margin-left: 12.5%;
+        width: 75%;
+    }
+    
+}
+
+.newsletter{
+    background-color: #f2f4f5;
+    text-align: center;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: auto;
+}
+
+.div__form {
+    display: inline-block;
+    font-size: 13px;
+    
+
+    input{
+        border-width: 0px;
+        padding: 5px 10px;
+
+        &:focus-visible{
+            outline-color: rgb(229, 151, 0);
+        }
+        &:focus{
+            outline-color: rgb(229, 151, 0);
+        }
+    }
+
+    button {
+        background-color: coral;
+        color: white;
+        border-width: 0px;
+        padding: 5px 10px;
+
+        &:focus-visible{
+            outline-color: rgb(229, 151, 0);
+        }
+
+        &:focus{
+            outline-color: rgb(229, 151, 0);
+        }
+    }
+
+}
